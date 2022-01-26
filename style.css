@@ -1,5 +1,30 @@
 .header {
-  background-image: url("../../abstract-lines-and-dots-connect-background-technology-connection-digital-data-and-big-data-concept-vector.jpeg");
   text-align: center;
+  color: #FFFFFF;
 }
 
+.header-picture {
+  background-image: url("../../MonitorWallpaper/Screen\ Shot\ 2021-02-11\ at\ 8.49.42\ AM.png");
+  background-position: center center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../../MonitorWallpaper/Screen\ Shot\ 2021-02-11\ at\ 8.49.42\ AM.png");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
