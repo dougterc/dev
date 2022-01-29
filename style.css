@@ -44,7 +44,7 @@ nav a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 40%;
   padding-top: 5%;
 }
 
@@ -102,4 +102,13 @@ h2 {
 .body-text {
   font-family: Garamond;
   font-size: 18pt;
+}
+
+.parallax-ribbon {
+  max-height: 100px;
+  min-height: 100px;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
